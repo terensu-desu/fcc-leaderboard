@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	font-family: "Didact Gothic", "Meiryo UI"; 
+  font-weight: normal; 
+  font-style: normal; 
+	background-color: #bdbdbd
+}
+
+.table-title {
+	border-radius: 15px 15px 0 0;
+	background-color: #ff5722;
+	color: white;
+	padding-bottom: 10px;
+	margin-bottom: 0
+}
+
+tr {
+	font-size: 1.5rem
+}
+
+tbody {
+	background-color: white;
+}
+
+a {
+	color: black;
+	transition: color .5s
+}
+
+a:hover {
+	color: #ff5722
+}
+
+.active {
+	color: #ff5722
+}
+
+.sort-btn:hover {
+	cursor: pointer
+}
+
+.material-icons.md-36 {
+	margin: 0 2px 0 5px;
+  font-size: 36px; 
+}
+.material-icons.md-30 {
+	margin: 0 2px 0 5px;
+  font-size: 30px; 
+}
